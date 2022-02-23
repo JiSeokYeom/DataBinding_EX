@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataBinding_EX</string>
+    <string name="likeCount">%d 개</string>
+</resources>
