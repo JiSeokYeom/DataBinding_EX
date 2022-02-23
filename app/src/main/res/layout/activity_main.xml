@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="25dp"
-            android:text="@={viewModel.likeString}"
+            android:text="@{@string/Count(viewModel.likeCount)}"
             android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@+id/like"
             app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +54,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text='@={viewModel.noLikeString}'
+            android:text='@{@string/Count(viewModel.noLikeCount)}'
             android:textSize="20sp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="45dp"
@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@={viewModel.totLikeString}"
+            android:text="@{@string/TotCount(viewModel.totLikeCount)}"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
